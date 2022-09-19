@@ -30,7 +30,7 @@ reports*/
 public class RunnerClass extends AbstractTestNGCucumberTests {
     //below override method enable us to execute multiple scenarios at the same time (parallel)
     //of course from here (runnerClass) when you pass the feature file tag in tags, like @login.
-    /// if there are numerous scenarios in one feature file it will be run in parallel
+    // if there are numerous scenarios in one feature file it will be run in parallel
     @Override
     @DataProvider(parallel = false)
     public Object[][] scenarios() {
