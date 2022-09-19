@@ -24,7 +24,7 @@ any name you want then pass it here in tags
  the second is html report which will be generated anywhere we specify now we indicate
 target folder and the report name would be after slush /
  the third expression is generating json report which is used in jenkins CI to generate
-reports*/
+reports  */
 
 
 public class RunnerClass extends AbstractTestNGCucumberTests {
